@@ -1,0 +1,1 @@
+THIS CONFIG IS NOT MINE. The original config is at https://github.com/mister-coded/dotfiles.
