@@ -1,5 +1,2 @@
 # Invoke-Expression (&starship init powershell)
-date
-Import-Module oh-my-posh
-Set-PoshPrompt -Theme bubbles
-
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/bubbles.omp.json"| Invoke-Expression
