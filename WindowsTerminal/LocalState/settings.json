@@ -35,7 +35,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "newTabMenu": 
     [
         {
@@ -49,6 +49,7 @@
             "backgroundImage": "C:\\Users\\inder\\AppData\\Local\\Packages\\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\\Pictures\\windowsterminal.png",
             "backgroundImageOpacity": 0.15,
             "colorScheme": "One Half Dark",
+            "cursorShape": "underscore",
             "font": 
             {
                 "face": "Monofur Nerd Font Propo",
@@ -77,9 +78,18 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe --nologo\"",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
     "schemes": [],
-    "themes": []
+    "theme": "system",
+    "themes": [],
+    "useAcrylicInTabRow": true
 }
